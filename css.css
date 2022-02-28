@@ -1,0 +1,91 @@
+/* media queries */
+@media screen and (min-width: 900px) and (max-width: 1550px){ 
+#item{
+    display:flex;
+}
+ }
+@media screen and (min-width: 220px) and (max-width: 985px){ 
+    .img_height{
+        height: 250px;
+     }
+     .img_height1{
+        height: 205px;
+     }
+     }
+ 
+  @media screen and (min-width: 220px) and (max-width: 720px){ 
+    .slider_img{
+    height: 0px;
+    width: 0px;
+ }
+ }
+/* sec 1 */
+.main{
+    margin-top: 146px;
+}
+.main_text{
+    padding-top: 100px;
+}
+.clr{
+    color:rgb(87, 87, 255);
+}
+.slider_sec{
+    position: relative;
+}
+.slider_img{
+    position: absolute;
+    right: 0;
+    top: -146px;
+    height: 710px;
+    /* height: 672px; */
+}
+/* sec 2 */
+.features_img{
+    margin-top: 112px;
+}
+.features_text{
+    margin-top: 200px;
+}
+/* sec 3 */
+.features2{
+    z-index: 2;
+
+}
+.element1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+.element1 img{
+    position: absolute;
+    top: 30px;
+}
+.element2{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 0;
+    left: -200px !important;
+}
+.element2 img{
+    position: absolute;
+    top: 60px;
+}
+.element3{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 0;
+    left: -35px !important;
+}
+.element3 img{
+    position: absolute;
+    top: -50px;
+    left: 285px;
+}
+/* sec 4 */
+.card_height{
+    height: 255px;
+    overflow: auto;
+}
